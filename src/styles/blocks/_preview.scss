@@ -1,0 +1,42 @@
+.preview {
+  &__title {
+    font-size: 48px;
+    max-width: 362px;
+    line-height: 57px;
+    margin-bottom: 32px;
+
+    span {
+      background: var(
+        --gradient,
+        linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%)
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      font-weight: 900;
+    }
+  }
+
+  &__info {
+    p {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+    }
+
+    max-width: 274px;
+  }
+
+  &__col {
+    &--left {
+      margin-top: 17px;
+    }
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}

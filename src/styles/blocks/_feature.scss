@@ -1,0 +1,48 @@
+.feature {
+  max-width: 320px;
+  text-align: right;
+
+  &__title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 44px;
+    line-height: 20px;
+
+    span {
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+
+      background: var(
+        --gradient,
+        linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%)
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  &__list {
+    column-count: 2;
+    margin-bottom: 28px;
+  }
+
+  &__item {
+    margin-bottom: 31px;
+
+    &-title {
+      font-size: 18px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      margin-bottom: 9px;
+    }
+
+    &-text {
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}

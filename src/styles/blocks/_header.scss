@@ -1,0 +1,25 @@
+.header {
+  padding-top: 57px;
+  margin-bottom: 97px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__col {
+    display: flex;
+
+    &--right {
+      margin-top: 6px;
+    }
+  }
+
+  &__logo {
+    margin-right: 28px;
+  }
+
+  &__socials {
+    margin-left: 49px;
+  }
+}

@@ -1,0 +1,17 @@
+.copyright {
+  text-align: right;
+
+  &__info,
+  &__rules {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #e4e5ea;
+  }
+
+  &__rules {
+    text-decoration: underline;
+    margin-top: 9px;
+    display: inline-block;
+  }
+}

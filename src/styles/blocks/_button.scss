@@ -1,0 +1,18 @@
+.button {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+
+  background: #4077f3;
+
+  min-width: 262px;
+  min-height: 60px;
+
+  transition: .4s;
+
+  &--feature {
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
