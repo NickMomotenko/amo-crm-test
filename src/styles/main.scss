@@ -70,7 +70,12 @@ input {
   max-width: 1140px;
   margin: 0 auto;
   width: 100%;
+
+  @media screen and (max-width:1150px) {
+    padding: 0 2%;
+  }
 }
+
 
 .main {
   margin-bottom: 126px;
