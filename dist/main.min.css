@@ -451,7 +451,7 @@ input {
   position: relative; }
   @media screen and (max-width: 380px) {
     .content {
-      background: url(../img/bg/content.png) no-repeat;
+      background: url(./img/bg/content.png) no-repeat;
       background-size: cover;
       background-position: center; } }
   .content::before {
