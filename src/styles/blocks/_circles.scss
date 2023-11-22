@@ -13,6 +13,9 @@
   height: 60px;
   border-radius: 50%;
 
+  animation: translate 5s linear infinite;
+  transition: 0.5s;
+
   position: absolute;
 
   filter: drop-shadow(3px 6px 27px rgba(177, 118, 217, 0.25)) blur(5px);
@@ -36,6 +39,8 @@
     );
 
     left: 59%;
+
+    animation-delay: 2s;
   }
 
   &--bottom {
@@ -61,6 +66,8 @@
 
     top: 92%;
     right: 40%;
+
+    animation-delay: 1.5s;
   }
 
   &--center {
@@ -86,5 +93,27 @@
 
     left: 38%;
     top: 14%;
+
+    @media screen and (max-width: 380px) {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    display: none;
+  }
+}
+
+@keyframes translate {
+  from {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(100px);
+  }
+
+  to {
+    transform: translateY(0);
   }
 }

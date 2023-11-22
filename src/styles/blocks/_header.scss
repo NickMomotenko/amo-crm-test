@@ -7,6 +7,12 @@
     justify-content: space-between;
   }
 
+  @media screen and (max-width: 380px) {
+    padding: 20px 0;
+    background: #000;
+    margin-bottom: 40px;
+  }
+
   &__col {
     display: flex;
 
@@ -61,9 +67,14 @@
 
         .menu {
           margin-top: 0;
+          margin-left: 12px;
 
           &__item.mobile {
             display: none;
+          }
+
+          &__link {
+            text-transform: uppercase;
           }
         }
       }

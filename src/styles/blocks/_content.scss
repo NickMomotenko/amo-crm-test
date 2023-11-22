@@ -1,5 +1,29 @@
-.content{
-    position: relative;
+.content {
+  position: relative;
 
-    
+  @media screen and (max-width: 380px) {
+    background: url(../../img/bg/content.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &::before {
+    content: "";
+    display: inline-block;
+    height: 311px;
+    width: 311px;
+    border-radius: 50%;
+    background: #961a1a;
+
+    opacity: 0.5;
+    filter: blur(196px);
+
+    position: absolute;
+    top: 50%;
+    left: -118px;
+
+    @media screen and (max-width: 380px) {
+      display: none;
+    }
+  }
 }
